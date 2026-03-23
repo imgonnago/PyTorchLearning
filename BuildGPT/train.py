@@ -1,6 +1,6 @@
 from traceback import print_tb
 
-with open('input.txt','r',encoding='utf-8') as f:
+with open('../input.txt', 'r', encoding='utf-8') as f:
     text = f.read()
 print("Length of dataset in characters: ", len(text))
 print(text[:1000])
